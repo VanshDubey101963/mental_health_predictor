@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Prediction</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Care Prediction</h1>
+        <form id="userInputForm">
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" required><br><br>
+            
+            <label for="country">Country:</label>
+            <input type="text" id="country" required><br><br>
+            
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" required><br><br>
+            
+            <label for="selfEmployed">Self Employed (Yes/No):</label>
+            <input type="text" id="selfEmployed" required><br><br>
+            
+            <label for="familyHistory">Family History (Yes/No):</label>
+            <input type="text" id="familyHistory" required><br><br>
+            
+            <label for="treatment">Treatment (Yes/No):</label>
+            <input type="text" id="treatment" required><br><br>
+            
+            <label for="daysIndoors">Days Indoors (1-14 days/Go out Every day/More than 2 months/15-30 days/31-60 days):</label>
+            <input type="text" id="daysIndoors" required><br><br>
+            
+            <label for="growingStress">Growing Stress (Yes/No/Maybe):</label>
+            <input type="text" id="growingStress" required><br><br>
+            
+            <label for="changesHabits">Changes Habits (Yes/No/Maybe):</label>
+            <input type="text" id="changesHabits" required><br><br>
+            
+            <label for="mentalHealthHistory">Mental Health History (Yes/No/Maybe):</label>
+            <input type="text" id="mentalHealthHistory" required><br><br>
+            
+            <label for="moodSwings">Mood Swings (Medium/Low/High):</label>
+            <input type="text" id="moodSwings" required><br><br>
+            
+            <label for="copingStruggles">Coping Struggles (Yes/No):</label>
+            <input type="text" id="copingStruggles" required><br><br>
+            
+            <label for="mentalHealthInterview">Mental Health Interview (Yes/No/Maybe):</label>
+            <input type="text" id="mentalHealthInterview" required><br><br>
+            
+            <label for="socialWeakness">Social Weakness (Yes/No/Maybe):</label>
+            <input type="text" id="socialWeakness" required><br><br>
+            
+            <label for="workInterest">Work Interest (Yes/No/Maybe):</label>
+            <input type="text" id="workInterest" required><br><br>
+            
+            <button class="submit_button" type="submit">Predict Care Option</button>
+        </form>
+
+        <div id="predictionResult">
+            <!-- Result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
